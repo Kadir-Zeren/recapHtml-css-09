@@ -6,6 +6,10 @@
   padding: 0;
 }
 
+body {
+  font-family: var(--ff-roboto);
+}
+
 .container {
   max-width: 1200px;
   margin: 2rem auto;
@@ -50,6 +54,13 @@ button:hover {
 
 header.hero {
   display: flex;
+  align-items: center;
+  padding: 1rem;
+}
+
+header.hero h1,
+p {
+  line-height: var(--line-h-xl);
 }
 
 header.hero img {
